@@ -1,0 +1,35 @@
+h1{
+    position: relative;
+    bottom: 240px;
+    left: 40%;
+    color: white;
+    font-size: 280%;
+}
+.getting{
+    position: relative;
+    /* bottom: 240px; */
+    left: 30%;
+    
+    
+  }
+  img{
+    width: 20%;
+  }
+  button{
+    position: relative;
+    right: 18%;
+    width: 15%;
+    height: 10vh;
+    color: white;
+    background-color: rgb(23, 226, 233);
+    border: 1px solid rgb(23, 236, 247);
+    
+  }
+  button:hover, button:active {
+    background-color: white;
+    color: rgb(18, 240, 229);
+  }
+  body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
