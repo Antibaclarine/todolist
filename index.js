@@ -1,4 +1,4 @@
-const apiUrl = 'https://dummyjson.com/todos';
+const apiUrl = 'https://dummyjson.com/todos?limit10';
 const newTodo = 48;
 
 // Function to get a list of all tasks for a specific user from the API
@@ -43,7 +43,7 @@ async function addTask() {
   const apiCode = Math.floor(Math.random() * 100000);
 
   try {
-    const response = await fetch('https://your-api-endpoint.com/tasks', {
+    const response = await fetch('https://dummyjson.com/todos/add', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ task: taskText, code: apiCode })
