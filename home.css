@@ -33,3 +33,21 @@ h1{
     overflow-x: hidden;
     overflow-y: scroll;
   }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+
+  nav li {
+    margin: 0 1em;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  nav{
+    position: relative;
+    bottom: 240px;
+    left: 75%;
+  }
